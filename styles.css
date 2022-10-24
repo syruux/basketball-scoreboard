@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: #331f31;
+}
+
+.main-container {
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: #ca5d2b;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    font-family: 'cursed_timer_ulilregular';
+}
+
+.scoreboard-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin: 70px 0 0 0;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home-score {
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 20px 0 25px 0;
+    width: 155px;
+    border-radius: 5px;
+    padding: 20px 0 16px 0;
+}
+
+#guest-score {
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 20px 0 25px 0;
+    width: 155px;
+    border-radius: 5px;
+    padding: 20px 0 16px 0;
+}
+
+.btn-el {
+    background-color: transparent;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'cursed_timer_ulilregular';
+}
+
+#btn-reset {
+    background-color: transparent;
+    font-size: 24px;
+    margin: 25px 0 30px 0;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'cursed_timer_ulilregular';
+}
+
+#winner-el {
+    margin: 35px 0 0 0;
+    font-size: 28px;
+    color: #e4ff1a;
+}

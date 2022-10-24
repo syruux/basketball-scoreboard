@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="webfontkit/stylesheet.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="scoreboard-container">
+                <div>
+                    <h3 id="home-title">HOME</h3>
+                    <h1 id="home-score">0</h1>
+                    <button class="btn-el" onclick="add1home(), checkScore()">+1</button>
+                    <button class="btn-el" onclick="add2home(), checkScore()">+2</button>
+                    <button class="btn-el" onclick="add3home(), checkScore()">+3</button>                
+                </div>
+                <div>
+                    <h3 id="guest-title">GUEST</h3>
+                    <h1 id="guest-score">0</h1>
+                    <button class="btn-el" onclick="add1guest(), checkScore()">+1</button>
+                    <button class="btn-el" onclick="add2guest(), checkScore()">+2</button>
+                    <button class="btn-el" onclick="add3guest(), checkScore()">+3</button>
+                </div>
+            </div>
+            <p id="winner-el">Start a new game!</p>
+            <button id="btn-reset" onclick="resetGame()">RESET GAME</button>
+        </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
